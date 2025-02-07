@@ -2,7 +2,7 @@ package greetings
 
 import "fmt"
 
-func Greetings(name string) string {
+func Greeting(name string) string {
 	// the := operator is a shortcut for declaring and initializing a variable in one line
 	// in Go, every declared variable must be used, or the compiler will throw an error.
 	// var message1 string

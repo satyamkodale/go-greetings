@@ -8,6 +8,6 @@ import (
 
 func main() {
 	// Call the Greetings function from the greetings package
-	message := greetings.Greetings("Satyam")
+	message := greetings.Greeting("Satyam")
 	fmt.Println(message)
 }
