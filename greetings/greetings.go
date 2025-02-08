@@ -1,6 +1,10 @@
 package greetings
 
-import "fmt"
+import (
+	"fmt"
+
+	"rsc.io/quote"
+)
 
 func Greeting(name string) string {
 	// the := operator is a shortcut for declaring and initializing a variable in one line
@@ -9,7 +13,7 @@ func Greeting(name string) string {
 	// message1 = fmt.Sprintf("Hi, %v. Welcome!", name)
 	// println(message1)
 
-	message := fmt.Sprintf("Hi , %v  Welcome!", name)
+	message := fmt.Sprintf("Hi, %v! Welcome! Here is a quote for you: %v", name, quote.Go())
 	return message
 }
 
