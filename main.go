@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	// Call the Greetings function from the greetings package
 	fmt.Println("Version : " + config.Version)
+	// Call the Greetings function from the greetings package
 	message := greetings.Greeting("Satyam")
 	fmt.Println(message)
 }
