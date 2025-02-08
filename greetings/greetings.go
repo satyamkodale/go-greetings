@@ -13,8 +13,9 @@ func Greeting(name string) string {
 	// message1 = fmt.Sprintf("Hi, %v. Welcome!", name)
 	// println(message1)
 
-	message := fmt.Sprintf("Hi, %v! Welcome! Here is a quote for you: %v", name, quote.Go())
-	return message
+	message := fmt.Sprintf("Hi, %v! Welcome! ", name)
+	randomMessage := fmt.Sprintf(quote.Go())
+	return message + " : " + randomMessage
 }
 
 // func main() {
