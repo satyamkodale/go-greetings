@@ -1,7 +1,9 @@
-module github.com/satyamkodale/go-greetings
+module github.com/satyamkodale/go-greetings/v2
 
 go 1.23.5
 
+// transitive depedencies
+// github.com/satyamkodale/go-greetings v1.0.1
 require rsc.io/quote v1.5.2
 
 require (
