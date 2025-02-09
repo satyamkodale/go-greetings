@@ -12,10 +12,10 @@ func Greeting(name string) string {
 	// var message1 string
 	// message1 = fmt.Sprintf("Hi, %v. Welcome!", name)
 	// println(message1)
-
 	message := fmt.Sprintf("Hi, %v! Welcome! ", name)
 	randomMessage := fmt.Sprintf(quote.Go())
-	return message + " -:- " + randomMessage
+	finalMessage := message + "\n" + randomMessage
+	return finalMessage
 }
 
 // func main() {
